@@ -1,0 +1,6 @@
+The initial positions of the motorbikes are always X= 0.
+0 ≤ S < 50
+1 ≤ M ≤ 4
+1 ≤ V ≤ M
+0 ≤ X < 500
+0 ≤ Y < 4
