@@ -1,1 +1,32 @@
 There are 2 AI motorbikes to begin with, you only need one to cross the bridge.
+
+Initialization input (outside the loop)	No output expected
+2	(M)
+1	(V)
+...0......
+...00.....
+...0..0...
+...0......	Road	 
+Input for turn 1	Output for turn 1
+1	(S)
+0 1 1	(X Y A) bike 1
+0 2 1	(X Y A) bike 2	SPEED
+Accelerate to have enough momentum to jump the gap
+ 
+Input for turn 2	Output for turn 2
+2	(S)
+2 1 1	(X Y A) bike 1
+2 2 1	(X Y A) bike 2	JUMP
+The next space for both bikes is a hole, jump now
+ 
+Input for turn 3	Output for turn 3
+2	(S)
+4 1 0	(X Y A) bike 1
+4 2 1	(X Y A) bike 2	DOWN
+One motorbike has been sacrificed. The remaining bike steers down to avoid oncoming hole
+ 
+Input for turn 3	Output for turn 4
+2	(S)
+4 1 0	(X Y A) bike 1
+6 3 1	(X Y A) bike 2	WAIT
+The bike is out of trouble
