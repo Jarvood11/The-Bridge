@@ -1,0 +1,5 @@
+INITIALIZATION INPUT:
+Line 1 : M the amount of motorbikes to control.
+Line 2 : V the minimum amount of motorbikes that must survive.
+Lines 3 through 6: the road ahead. Each line represents one lane of the road. 
+A dot character . represents a safe space, a zero 0 represents a hole in the road.
