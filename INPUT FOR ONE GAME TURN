@@ -1,0 +1,4 @@
+Line 1 : S the motorbikes' speed.
+Next M lines: X Y A two integers and a boolean seperated by spaces. 
+X, Y the coordinates of the motorbike on the road and A to indicate
+whether the motorbike is activated "1" or detroyed "0".
